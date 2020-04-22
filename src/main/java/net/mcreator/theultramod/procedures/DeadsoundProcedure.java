@@ -49,10 +49,13 @@ public class DeadsoundProcedure extends TheultramodElements.ModElement {
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		if ((((TheultramodVariables.WorldVariables.get(world).deds) == 2)
-				&& (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) <= 2.5))) {
-			world.playSound((PlayerEntity) null, x, y, z,
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("theultramod:astonomiapredead")),
-					SoundCategory.NEUTRAL, (float) 1, (float) 1);
+				&& (((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) <= 6))) {
+			if ((((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHealth() : -1) > 0)) {
+				if (true) {
+					world.playSound((PlayerEntity) null, x, y, z, (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+							.getValue(new ResourceLocation("theultramod:astonomiapredead")), SoundCategory.NEUTRAL, (float) 1, (float) 1);
+				}
+			}
 		}
 	}
 

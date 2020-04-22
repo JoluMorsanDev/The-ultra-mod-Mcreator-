@@ -51,14 +51,14 @@ public class TheultramodElements {
 	public final List<Supplier<EntityType<?>>> entities = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public TheultramodElements() {
-		sounds.put(new ResourceLocation("theultramod", "astonomiapredead"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("theultramod", "astonomiapredead")));
-		sounds.put(new ResourceLocation("theultramod", "dedsoundastronomia"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("theultramod", "dedsoundastronomia")));
 		sounds.put(new ResourceLocation("theultramod", "robloxded"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("theultramod", "robloxded")));
 		sounds.put(new ResourceLocation("theultramod", "dedsound1"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("theultramod", "dedsound1")));
+		sounds.put(new ResourceLocation("theultramod", "astonomiapredead"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("theultramod", "astonomiapredead")));
+		sounds.put(new ResourceLocation("theultramod", "dedsoundastronomia"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("theultramod", "dedsoundastronomia")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("theultramod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

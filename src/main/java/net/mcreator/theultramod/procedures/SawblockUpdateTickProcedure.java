@@ -13,7 +13,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.theultramod.item.SawItem;
+import net.mcreator.theultramod.item.IronsawItem;
 import net.mcreator.theultramod.item.GoldscrapItem;
 import net.mcreator.theultramod.TheultramodVariables;
 import net.mcreator.theultramod.TheultramodElements;
@@ -47,7 +47,7 @@ public class SawblockUpdateTickProcedure extends TheultramodElements.ModElement 
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		if (((TheultramodVariables.WorldVariables.get(world).spawnfirst) == (true))) {
+		if (((TheultramodVariables.button3) == (true))) {
 			if ((((new Object() {
 				public int getAmount(BlockPos pos, int sltid) {
 					TileEntity inv = world.getTileEntity(pos);
@@ -73,7 +73,7 @@ public class SawblockUpdateTickProcedure extends TheultramodElements.ModElement 
 								return ((LockableLootTileEntity) inv).getStackInSlot(sltid);
 							return ItemStack.EMPTY;
 						}
-					}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (7))).getItem() == new ItemStack(SawItem.block, (int) (1))
+					}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (7))).getItem() == new ItemStack(IronsawItem.block, (int) (1))
 							.getItem()))
 					&& ((((new Object() {
 						public int getAmount(BlockPos pos, int sltid) {

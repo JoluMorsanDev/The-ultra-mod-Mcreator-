@@ -445,15 +445,6 @@
       "registry_name": "goldenshears"
     },
     {
-      "name": "Saw",
-      "type": "item",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "saw"
-    },
-    {
       "name": "Sawr",
       "type": "recipe",
       "sortid": 31,
@@ -672,6 +663,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dedsound"
+    },
+    {
+      "name": "Ironsaw",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ironsaw"
     }
   ],
   "variable_elements": [
@@ -752,19 +752,15 @@
       "type": "number",
       "scope": "world",
       "value": "1"
+    },
+    {
+      "name": "dedpres",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
     }
   ],
   "sound_elements": [
-    {
-      "name": "astonomiapredead",
-      "file": "astronomia-minecraft-note-block-cover-full-version-coffin-dance-meme",
-      "category": "master"
-    },
-    {
-      "name": "dedsoundastronomia",
-      "file": "cut_y2mate.com_-_astronomia_minecraft_note_block_cover_full_version_coffin_dance_meme_4rqhgkwufz0",
-      "category": "master"
-    },
     {
       "name": "robloxded",
       "file": "cut_y2mate.com_-_25_roblox_death_sound_variations_in_60_seconds_ukwciajts6q",
@@ -774,6 +770,16 @@
       "name": "dedsound1",
       "file": "cut_death-sound-in-minecraft",
       "category": "master"
+    },
+    {
+      "name": "astonomiapredead",
+      "file": "astronomia-minecraft-note-block-cover-full-version-coffin-dance-meme",
+      "category": "master"
+    },
+    {
+      "name": "dedsoundastronomia",
+      "file": "cut_y2mate.com_-_astronomia_minecraft_note_block_cover_full_version_coffin_dance_meme_4rqhgkwufz0",
+      "category": "master"
     }
   ],
   "language_map": {
@@ -782,7 +788,7 @@
       "key.mcreator.dedsound": "Death sound",
       "key.mcreator.key1": "Show player progress",
       "item.theultramod.goldscrap": "Gold scrap",
-      "item.theultramod.saw": "Iron saw",
+      "item.theultramod.ironsaw": "Iron saw",
       "block.theultramod.sawblock": "Metal cutter",
       "item.theultramod.goldenshears": "Golden shears",
       "item.theultramod.plank": "Plank"
