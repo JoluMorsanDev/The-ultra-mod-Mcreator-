@@ -1,0 +1,42 @@
+{
+  "group": "theultramod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "theultramod:plank"
+    },
+    "1": {
+      "item": "theultramod:saw"
+    },
+    "2": {
+      "item": "theultramod:plank"
+    },
+    "3": {
+      "item": "theultramod:plank"
+    },
+    "4": {
+      "item": "minecraft:iron_block"
+    },
+    "5": {
+      "item": "theultramod:plank"
+    },
+    "6": {
+      "item": "minecraft:iron_block"
+    },
+    "7": {
+      "item": "minecraft:iron_block"
+    },
+    "8": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "theultramod:sawblock",
+    "count": 1
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Player progress",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Player progress",
+          "x": 352,
+          "y": 91
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Class:",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Class:",
+          "x": 283,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:playerway1>",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "<VAR:playerway1>",
+          "x": 345,
+          "y": 144
+        }
+      }
+    ]
+  }
+}

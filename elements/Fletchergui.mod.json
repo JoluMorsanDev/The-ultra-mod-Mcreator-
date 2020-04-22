@@ -1,0 +1,85 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 290,
+          "y": 152
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 361,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "+",
+          "x": 336,
+          "y": 158
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "->",
+          "onClick": {
+            "name": "Buttonp1"
+          },
+          "width": 40,
+          "height": 40,
+          "name": "->",
+          "x": 433,
+          "y": 148
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "name": "Slot #2",
+          "x": 506,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Fletcher",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Fletcher",
+          "x": 386,
+          "y": 83
+        }
+      }
+    ]
+  }
+}

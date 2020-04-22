@@ -1,0 +1,38 @@
+{
+  "astonomiapredead": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "theultramod:astronomia-minecraft-note-block-cover-full-version-coffin-dance-meme",
+        "stream": false
+      }
+    ]
+  },
+  "dedsoundastronomia": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "theultramod:cut_y2mate.com_-_astronomia_minecraft_note_block_cover_full_version_coffin_dance_meme_4rqhgkwufz0",
+        "stream": false
+      }
+    ]
+  },
+  "robloxded": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "theultramod:cut_y2mate.com_-_25_roblox_death_sound_variations_in_60_seconds_ukwciajts6q",
+        "stream": false
+      }
+    ]
+  },
+  "dedsound1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "theultramod:cut_death-sound-in-minecraft",
+        "stream": false
+      }
+    ]
+  }
+}

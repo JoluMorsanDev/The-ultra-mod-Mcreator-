@@ -1,0 +1,81 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Which role do you want to play?",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Which role do you want to play?",
+          "x": 266,
+          "y": 86
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Wizard",
+          "onClick": {
+            "name": "Sgb1"
+          },
+          "width": 160,
+          "height": 40,
+          "name": "Wizard",
+          "x": 346,
+          "y": 132
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Knight",
+          "onClick": {
+            "name": "Sgb2"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Knight",
+          "x": 369,
+          "y": 185
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Hunter",
+          "onClick": {
+            "name": "Sgb3"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Hunter",
+          "x": 368,
+          "y": 244
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Scientist",
+          "onClick": {
+            "name": "Sgb4"
+          },
+          "width": 180,
+          "height": 40,
+          "name": "Scientist",
+          "x": 338,
+          "y": 300
+        }
+      }
+    ]
+  }
+}

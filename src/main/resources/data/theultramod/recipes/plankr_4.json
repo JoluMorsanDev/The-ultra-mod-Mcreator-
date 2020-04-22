@@ -1,0 +1,30 @@
+{
+  "group": "theultramod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "theultramod:plank"
+    },
+    "3": {
+      "item": "theultramod:plank"
+    },
+    "4": {
+      "item": "minecraft:stripped_birch_log"
+    },
+    "5": {
+      "item": "theultramod:plank"
+    },
+    "7": {
+      "item": "theultramod:plank"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_log",
+    "count": 1
+  }
+}

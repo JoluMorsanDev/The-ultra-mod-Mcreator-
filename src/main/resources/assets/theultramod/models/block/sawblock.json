@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "theultramod:blocks/sawblock1",
+    "up": "theultramod:blocks/sawblock2",
+    "north": "theultramod:blocks/sawblock1",
+    "east": "theultramod:blocks/sawblock1",
+    "south": "theultramod:blocks/sawblock1",
+    "west": "theultramod:blocks/sawblock1",
+    "particle": "theultramod:blocks/sawblock1"
+  }
+}

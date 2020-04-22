@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "P",
+    "keyBindingName": "Show player progress",
+    "onKeyPressed": {
+      "name": "Key1OnKeyPressed"
+    }
+  }
+}

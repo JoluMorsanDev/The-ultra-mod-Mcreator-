@@ -1,0 +1,85 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "name": "Slot #3",
+          "x": 290,
+          "y": 152
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "name": "Slot #4",
+          "x": 361,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "+",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "+",
+          "x": 336,
+          "y": 158
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "->",
+          "onClick": {
+            "name": "Buttonp2"
+          },
+          "width": 40,
+          "height": 40,
+          "name": "->",
+          "x": 433,
+          "y": 148
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "name": "Slot #5",
+          "x": 506,
+          "y": 153
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Smithing",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Smithing",
+          "x": 386,
+          "y": 83
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "group": "theultramod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "theultramod:plank"
+    },
+    "1": {
+      "item": "theultramod:saw"
+    },
+    "2": {
+      "item": "theultramod:plank"
+    },
+    "3": {
+      "item": "theultramod:plank"
+    },
+    "4": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "5": {
+      "item": "theultramod:plank"
+    }
+  },
+  "result": {
+    "item": "minecraft:stonecutter",
+    "count": 1
+  }
+}

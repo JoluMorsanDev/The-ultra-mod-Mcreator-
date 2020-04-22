@@ -1,0 +1,9 @@
+{
+  "group": "theultramod",
+  "type": "minecraft:stonecutting",
+  "count": 4,
+  "ingredient": {
+    "tag": "minecraft:planks"
+  },
+  "result": "theultramod:plank"
+}

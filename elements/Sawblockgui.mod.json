@@ -1,0 +1,72 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 6,
+          "name": "Slot #6",
+          "x": 345,
+          "y": 121
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 7,
+          "name": "Slot #7",
+          "x": 344,
+          "y": 188
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "->",
+          "onClick": {
+            "name": "Buttonp3"
+          },
+          "width": 40,
+          "height": 40,
+          "name": "->",
+          "x": 403,
+          "y": 153
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "name": "Slot #8",
+          "x": 467,
+          "y": 155
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Metal cutter",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Metal cutter",
+          "x": 386,
+          "y": 83
+        }
+      }
+    ]
+  }
+}
