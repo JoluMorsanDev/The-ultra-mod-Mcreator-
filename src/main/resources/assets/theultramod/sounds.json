@@ -17,20 +17,20 @@
       }
     ]
   },
-  "astonomiapredead": {
-    "category": "master",
-    "sounds": [
-      {
-        "name": "theultramod:astronomia-minecraft-note-block-cover-full-version-coffin-dance-meme",
-        "stream": false
-      }
-    ]
-  },
   "dedsoundastronomia": {
     "category": "master",
     "sounds": [
       {
         "name": "theultramod:cut_y2mate.com_-_astronomia_minecraft_note_block_cover_full_version_coffin_dance_meme_4rqhgkwufz0",
+        "stream": false
+      }
+    ]
+  },
+  "creditsded": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "theultramod:cut_y2mate.com_-_meme_de_creditos_finales_p5i1uhdebkc",
         "stream": false
       }
     ]

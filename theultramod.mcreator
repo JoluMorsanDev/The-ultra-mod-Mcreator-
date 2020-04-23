@@ -573,39 +573,6 @@
       }
     },
     {
-      "name": "Deadsound",
-      "type": "procedure",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "deadsound",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Deadsound2",
       "type": "procedure",
       "sortid": 41,
@@ -754,10 +721,10 @@
       "value": "1"
     },
     {
-      "name": "dedpres",
-      "type": "logic",
+      "name": "timer1",
+      "type": "number",
       "scope": "global",
-      "value": "false"
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -772,13 +739,13 @@
       "category": "master"
     },
     {
-      "name": "astonomiapredead",
-      "file": "astronomia-minecraft-note-block-cover-full-version-coffin-dance-meme",
+      "name": "dedsoundastronomia",
+      "file": "cut_y2mate.com_-_astronomia_minecraft_note_block_cover_full_version_coffin_dance_meme_4rqhgkwufz0",
       "category": "master"
     },
     {
-      "name": "dedsoundastronomia",
-      "file": "cut_y2mate.com_-_astronomia_minecraft_note_block_cover_full_version_coffin_dance_meme_4rqhgkwufz0",
+      "name": "creditsded",
+      "file": "cut_y2mate.com_-_meme_de_creditos_finales_p5i1uhdebkc",
       "category": "master"
     }
   ],

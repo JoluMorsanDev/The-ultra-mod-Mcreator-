@@ -52,13 +52,17 @@ public class Deadsound2Procedure extends TheultramodElements.ModElement {
 				world.playSound((PlayerEntity) null, x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("theultramod:dedsoundastronomia")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1);
-			} else if (((TheultramodVariables.WorldVariables.get(world).deds) != 3)) {
+			} else if (((TheultramodVariables.WorldVariables.get(world).deds) == 3)) {
 				world.playSound((PlayerEntity) null, x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("theultramod:robloxded")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1);
-			} else if (((TheultramodVariables.WorldVariables.get(world).deds) != 4)) {
+			} else if (((TheultramodVariables.WorldVariables.get(world).deds) == 4)) {
 				world.playSound((PlayerEntity) null, x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("theultramod:dedsound1")),
+						SoundCategory.NEUTRAL, (float) 1, (float) 1);
+			} else if (((TheultramodVariables.WorldVariables.get(world).deds) == 5)) {
+				world.playSound((PlayerEntity) null, x, y, z,
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("theultramod:creditsded")),
 						SoundCategory.NEUTRAL, (float) 1, (float) 1);
 			}
 		}

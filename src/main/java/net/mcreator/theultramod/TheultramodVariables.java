@@ -23,7 +23,7 @@ public class TheultramodVariables {
 	public static boolean button2 = false;
 	public static boolean guiopen2 = false;
 	public static boolean button3 = false;
-	public static boolean dedpres = false;
+	public static double timer1 = 0;
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "theultramod_worldvars";
 		public boolean spawnfirst = false;

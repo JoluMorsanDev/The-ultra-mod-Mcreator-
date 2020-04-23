@@ -17,7 +17,7 @@ public class DedsoundOnKeyPressedProcedure extends TheultramodElements.ModElemen
 			return;
 		}
 		World world = (World) dependencies.get("world");
-		if (((TheultramodVariables.WorldVariables.get(world).deds) <= 5)) {
+		if (((TheultramodVariables.WorldVariables.get(world).deds) <= 6)) {
 			TheultramodVariables.WorldVariables.get(world).deds = (double) ((TheultramodVariables.WorldVariables.get(world).deds) + 1);
 			TheultramodVariables.WorldVariables.get(world).syncData(world);
 		} else {
